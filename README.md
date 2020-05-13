@@ -1,1 +1,1 @@
-# college-management
+# College Management
