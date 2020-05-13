@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Miniver|Open+Sans:600');
+.ribbon {
+  width: inherit;
+  height: 40%;
+  background-color: #3F51B5;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+.login{
+	border-radius: 5px;
+  position: relative;
+  padding: 10px;
+  top:50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+@media only screen and(min-height: 40em)
+{
+  .login{
+    height: 500px;
+  }
+}
+a{
+  text-decoration: none;
+}
